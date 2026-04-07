@@ -2,7 +2,7 @@ package org.boris;
 
 import java.util.*;
 
-public class GroupAnagramsLeetcode49 {
+public class Leetcode49GroupAnagrams {
     public List<List<String>> groupAnagrams(String[] strs) {
         Map<String, List<String>> visitedMap = new HashMap<>();
         for (String item : strs) {

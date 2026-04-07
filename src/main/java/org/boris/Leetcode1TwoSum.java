@@ -3,7 +3,7 @@ package org.boris;
 import java.util.HashMap;
 import java.util.Map;
 
-public class TwoSumLeetcode1 {
+public class Leetcode1TwoSum {
     public int[] twoSum(int[] nums, int target) {
         Map<Integer, Integer> visitedMap = new HashMap<>();
         for (int i = 0; i < nums.length; i++) {
